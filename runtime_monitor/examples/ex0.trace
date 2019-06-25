@@ -1,0 +1,15 @@
+{"timestamp": 1, "E": true, "R": false}
+{"timestamp": 2, "E": true, "R": false}
+{"timestamp": 3, "E": true, "R": false}
+{"timestamp": 4, "E": true, "R": false}
+{"timestamp": 5, "E": true, "R": false}
+{"timestamp": 6, "E": true, "R": false}
+{"timestamp": 7, "E": true, "R": false}
+{"timestamp": 8, "E": true, "R": false}
+{"timestamp": 9, "E": true, "R": false}
+{"timestamp": 10, "E": false, "R": true}
+{"timestamp": 11, "E": false, "R": false}
+{"timestamp": 12, "E": false, "R": false}
+{"timestamp": 13, "E": false, "R": false}
+{"timestamp": 14, "E": false, "R": false}
+{"timestamp": 15, "E": false, "R": false}

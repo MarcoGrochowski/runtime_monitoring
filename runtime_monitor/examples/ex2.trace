@@ -1,0 +1,7 @@
+{"timestamp": 1, "E": true, "R": false}
+{"timestamp": 2, "E": true, "R": false}
+{"timestamp": 3, "E": true, "R": false}
+{"timestamp": 4, "E": true, "R": false}
+{"timestamp": 5, "E": false, "R": true}
+{"timestamp": 6, "E": false, "R": false}
+{"timestamp": 7, "E": false, "R": false}

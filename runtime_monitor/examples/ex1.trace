@@ -1,0 +1,5 @@
+{"timestamp": 1, "a": true, "b": false}
+{"timestamp": 2, "a": true, "b": false}
+{"timestamp": 2, "a": true, "b": false}
+{"timestamp": 3, "a": false, "b": true}
+{"timestamp": 4, "a": true, "b": true}

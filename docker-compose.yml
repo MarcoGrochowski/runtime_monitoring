@@ -1,0 +1,27 @@
+version: '3'
+services:
+  broker:
+    image: eclipse-mosquitto:latest
+    command: /usr/sbin/mosquitto -c /mosquitto/config/mosquitto.conf
+    expose:
+      - 8883
+      - 443
+    ports:
+      - 8883:8883
+      - 443:443
+    volumes: 
+      - ./broker/mosquitto.conf:/mosquitto/config/mosquitto.conf
+  monitor:
+    build: runtime_monitor
+    command: python3 ./runtime_monitor/main.py
+    volumes:
+      - ./runtime_monitor:/runtime_monitor
+    depends_on:
+      - broker
+  thing:
+    build: ./industrial_assets
+    command: python3 ./industrial_assets/thing.py
+    volumes:
+      - ./industrial_assets:/industrial_assets
+    depends_on:
+      - broker
